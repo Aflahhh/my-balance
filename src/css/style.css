@@ -1431,10 +1431,6 @@ input:checked + .toggle-bg {
   width: 100%;
 }
 
-.max-w-2xl {
-  max-width: 42rem;
-}
-
 .max-w-md {
   max-width: 28rem;
 }
@@ -3633,8 +3629,8 @@ input:checked + .toggle-bg {
 }
 
 @media not all and (min-width: 1024px) {
-  .max-lg\:max-w-sm {
-    max-width: 24rem;
+  .max-lg\:max-w-md {
+    max-width: 28rem;
   }
 }
 
@@ -3645,16 +3641,8 @@ input:checked + .toggle-bg {
 }
 
 @media not all and (min-width: 640px) {
-  .max-sm\:max-w-sm {
-    max-width: 24rem;
-  }
-
   .max-sm\:max-w-xs {
     max-width: 20rem;
-  }
-
-  .max-sm\:max-w-md {
-    max-width: 28rem;
   }
 }
 
