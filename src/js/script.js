@@ -72,11 +72,10 @@ document.addEventListener("DOMContentLoaded", function () {
         <td class="px-6 py-4">${transaction.type === "income" ? "Rp, " + new Intl.NumberFormat("id-ID").format(transaction.amount) : "-"}</td>
         <td class="px-6 py-4">${transaction.type === "expense" ? "Rp, " + new Intl.NumberFormat("id-ID").format(transaction.amount) : "-"}</td>
         <td class="px-6 py-4">${transaction.description}</td>
-        <td class="px-3 py-4 block">
+        <td class="px-7 py-4 block">
           <button class="edit-btn" onclick="editTransaction(${transaction.id})">Ubah</button>
-          <button class="delete-btn text-white focus:ring-4 focus:outline-none font-sm rounded-lg text-sm p-2.5 text-center inline-flex items-center     onclick="deleteTransaction(${
-            transaction.id
-          }) ">X</button>
+          <button class="delete-btn" onclick="deleteTransaction(${transaction.id})">Hapus</button>
+          
 
         </td>
       `;
