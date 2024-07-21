@@ -2713,11 +2713,6 @@ input:checked + .toggle-bg {
   padding-right: 0.5rem;
 }
 
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -2726,6 +2721,11 @@ input:checked + .toggle-bg {
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
 }
 
 .px-9 {
@@ -3632,9 +3632,29 @@ input:checked + .toggle-bg {
   --tw-ring-color: rgb(30 66 159 / var(--tw-ring-opacity));
 }
 
+@media not all and (min-width: 1024px) {
+  .max-lg\:max-w-sm {
+    max-width: 24rem;
+  }
+}
+
+@media not all and (min-width: 768px) {
+  .max-md\:max-w-sm {
+    max-width: 24rem;
+  }
+}
+
 @media not all and (min-width: 640px) {
   .max-sm\:max-w-sm {
     max-width: 24rem;
+  }
+
+  .max-sm\:max-w-xs {
+    max-width: 20rem;
+  }
+
+  .max-sm\:max-w-md {
+    max-width: 28rem;
   }
 }
 
